@@ -12,11 +12,7 @@ export default function Leaderboard({leaders}){
     return(
         <div>
             <MyHeader/>
-            {leaders.map((leader, index)=>(
-               <div key={index} >
-                <a href={`http://www.codewars.com/users/${leader}`}>{leader}</a>
-               </div>
-            ))}
+           
         </div>
     )
 }
